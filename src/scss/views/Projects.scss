@@ -1,0 +1,31 @@
+.projects-greeting {
+    font-size: 30px;
+    .v-sheet:nth-child(1) {
+        font-size: 120px;
+    }
+}
+
+.projects-content {
+    margin-top: 300px;
+    min-height: 200vh;
+    &--visual-effect {
+        min-height: 200px;
+        position: relative;
+        transform: translateY(-300px);
+        img {
+            background-size: cover;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            z-index: 1;
+            &:nth-child(2){
+                z-index: -2;
+                top: -25px;
+                filter: brightness(70%);
+            }
+        }
+    }
+    &--main {
+        transform: translateY(-30px);
+    }
+}

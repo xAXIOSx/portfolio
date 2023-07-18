@@ -1,0 +1,16 @@
+@import "./variables.scss";
+@import "./fonts.scss";
+@import "./customClasses.scss";
+@import "./components/components.scss";
+@import "./views/views.scss";
+
+.v-application {
+    [class*='text-'] {
+      color: #36405a;
+      font-family: $font-family, sans-serif !important;
+    }
+    font-family: $font-family, sans-serif !important;
+    .highlighted-greeting {
+      font-family: $spec-font, sans-serif !important;
+    }
+  }

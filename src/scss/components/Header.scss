@@ -1,0 +1,36 @@
+.logo {
+  user-select: none;
+  &-title {
+    position: relative;
+    transform: translateY(-11px);
+  }
+  &-subtitle {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    z-index: 999;
+  }
+}
+
+.header-tabs {
+  button.v-slide-group-item--active {
+    background: white;
+    color: $main-color;
+    box-shadow: white 0px 0px 10px;
+  }
+  &--btns {
+    display: flex;
+    align-items: center;
+    gap: 90px;
+  }
+}
+
+@media (max-width: 625px) {
+  .header-tabs {
+    &--btns {
+      &__theme {
+        display: none;
+      }
+    }
+  }
+}

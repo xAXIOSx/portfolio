@@ -1,0 +1,14 @@
+@import './mixins.scss';
+
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.text-gradient-green {
+    @include textGradient(45deg, #09009f, #00ff95 80%);
+}
+
+.gap-20 {
+  gap: 20px;
+}

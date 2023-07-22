@@ -1,7 +1,7 @@
 <template>
   <v-window-item key="1" :value="0">
     <v-sheet class="projects-greeting text-center pt-14">
-      <v-sheet class="highlighted-greeting"> Hello! I'm Dmitry </v-sheet>
+      <v-sheet class="highlighted-greeting"> Hello! I'm Dmitry 👋</v-sheet>
       <v-sheet
         >Junior Frontend Developer
         <span class="text-green font-weight-black text-gradient-green"
@@ -15,7 +15,7 @@
         <img src="../assets/imgs/svgs/wave.svg" alt="" />
       </div>
       <div class="projects-content--main bg-green">
-        <v-container class="d-flex flex-column align-center gap-20">
+        <v-container class="d-flex flex-column align-center gap-60">
           <v-sheet class="text-h3 bg-green text-center font-weight-bold mb-15"
             >My Projects:</v-sheet
           >

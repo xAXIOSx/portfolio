@@ -1,12 +1,28 @@
 .project-card {
-    &--img-block {
-        width: 25%;
-        img {
-            width: 200px;
-            height: 200px;
-        }
+  &--img-block {
+    position: relative;
+    cursor: pointer;
+    .hover-icon {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      display: none;
+      transition: 0.3s;
+      &:hover {
+        box-shadow: green 0 0 40px 3px;
+      }
     }
-    &--text-block {
-        
+    img {
+      transition: 0.3s;
     }
+    &:hover {
+      img {
+        filter: brightness(55%);
+      }
+      .hover-icon {
+        display: block;
+      }
+    }
+  }
 }

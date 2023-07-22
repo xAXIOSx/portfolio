@@ -1,0 +1,29 @@
+.about-me {
+  &--short {
+    &__img {
+      img {
+        position: relative;
+        &::after {
+          content: "";
+          width: 600px;
+          height: 600px;
+          position: absolute;
+          top: 2px;
+          left: 2px;
+          border: 5px solid green;
+        }
+      }
+    }
+  }
+}
+
+.stack {
+  .v-row {
+    transition: 0.2s linear;
+    cursor: pointer;
+    user-select: none;
+    &:hover {
+      filter: drop-shadow(10px 10px green);
+    }
+  }
+}

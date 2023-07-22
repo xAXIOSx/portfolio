@@ -3,13 +3,14 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "serve": "vite preview",
+    "server": "ts-node server/send.ts",
     "build": "vite build",
     "dev": "vite",
     "preview": "vite preview"
   },
   "dependencies": {
     "@mdi/font": "5.9.55",
+    "axios": "^1.4.0",
     "pinia": "^2.1.4",
     "roboto-fontface": "*",
     "sass": "^1.63.6",

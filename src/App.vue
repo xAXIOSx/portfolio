@@ -10,7 +10,7 @@
         <ProjectsView/>
       </v-window>
     </v-main>
-    <v-footer>
+    <v-footer class="bg-blue-grey-darken-4">
       <Footer/>
     </v-footer>
   </v-app>
